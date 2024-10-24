@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Gestor de Tareas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Tareas</h1>
+        
+        <div id="insider">
+            <input type="text" id="tareaInput" placeholder="Agregar nueva tarea...">
+            <button id="agregarTareaBtn">Agregar Tarea</button>
+        </div>
+       
+        
+        <div class="columnas">
+            <div class="columna" id="pendientes">
+                <h2>Pendientes</h2>
+                <ul id="listaPendientes"></ul>
+            </div>
+            <div class="columna" id="haciendo">
+                <h2>Haciendo</h2>
+                <ul id="listaHaciendo"></ul>
+            </div>
+            <div class="columna" id="completadas">
+                <h2>Completadas</h2>
+                <ul id="listaCompletadas"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
